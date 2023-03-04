@@ -15,12 +15,12 @@ class ejercicio2():
             if 't' + str(n)==self.tareas[t]:
                 print("ha realizado la tarea",n)
                 self.orden.append(self.tareas[t])
-                del self.tareas[t] #eliminamos self.tareas
+                del self.tareas[t] #eliminamos self.tareas hasta q la len sea igual a 0
                 self.ordenacion(n+1,0)
             else:
                 print("esa tarea no es la q toca,realice la tarea",n)
         else:
-            print(self.orden)
+            print(self.orden) 
 
 
 
