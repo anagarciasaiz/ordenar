@@ -1,3 +1,5 @@
+link: https://github.com/anagarciasaiz/ordenar  
+GRUPO: Iñigo Aguirre, Ana García, Angel Martínez, Lidia Velicia  
 # ENTRGA ORDENAR
 
 ## Ejercicio 1: Ordenación por inserción dicotómica
