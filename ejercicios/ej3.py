@@ -36,8 +36,21 @@ print("Elementos sacados:", l2)
 
 
 def esta_explorando(output):
-
-    copia_seguridad.append(max(output(1)))
+    for i in output:
+        n=1
+        copia_seguridad.append(max(output(n)))
+        n=+1
 
     print(copia_seguridad)
     return
+
+def desplazar_elementos():
+    
+    primer_elemento = tabla.pop(0)
+    tabla.append(primer_elemento)
+    print(tabla)
+
+desplazar_elementos()
+
+
+
