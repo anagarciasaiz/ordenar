@@ -1,6 +1,6 @@
 # ENTRGA ORDENAR
 
-## Ejercicio 4: Ordenación por inserción dicotómica
+## Ejercicio 1: Ordenación por inserción dicotómica
 Sea t una tabla de una sola línea donde los componentes son de tipo T --> COMPARABLE.  
 
 1. Escribir primero las especificaciones del algoritmo que no usa la ayuda de otra tabla para calcular su resultado. Así, los elementos de t están «ordenados en su lugar». Cuidar especialmente la precondición y la postcondición; no son fáciles de obtener, pero proporcionan una guía útil para la construcción del algoritmo.
@@ -10,13 +10,13 @@ Sea t una tabla de una sola línea donde los componentes son de tipo T --> COMPA
 3. Desarrollar este algoritmo nuevo.
 
 
-## Ejercicio 5: Ordenación topológica
+## Ejercicio 2: Ordenación topológica
 Una restricción se expresa mediante un par (i,j) de números enteros comprendidos entre 1 y n, que indica que la tarea ti va antes que la tarea tj. Es decir, la tarea ti debe estar terminada antes de empezar la tarea tj. La relación binaria «... precede ...» así definida en el conjunto de las n tareas es una relación de orden parcial: algunas tareas no son comparables.
 
 Hacer un algoritmo que calcule una ordenación de la n tareas cumpliendo las restricciones. Está claro que no se pueden cumplir todas las restricciones. En este caso, no hay ordenación de las tareas. El algoritmo deberá tratar este caso correctamente.
 
 
-## Ejercicio 6: Especificación de está_explorado
+## Ejercicio 3: Especificación de está_explorado
 Escribir las especificaciones del predicado está_explorado. Las especificaciones se expresan usando la definición de un segmento de tabla. Es una serie de componentes que empieza por el máximo de la serie.
 
 Definición: Se llama segmento en una tabla t de componentes de tipo T que deriva de COMPARABLE a la serie de componentes consecutivos más grande cuyo valor máximo es el primero de la serie.
