@@ -4,6 +4,7 @@ from itertools import islice
 
 copia_seguridad=[]
 tabla=[]
+output=[]
 
 def crear_dividir_tabla():
     n=15
@@ -13,11 +14,30 @@ def crear_dividir_tabla():
     divisiones = [2, 4, 3, 6]
 
     # Usando islice
-    Output = [list(islice(iter(tabla), elem)) for elem in divisiones]
+    output = [list(islice(iter(tabla), elem)) for elem in divisiones]
     
-    print("List after splitting", Output)    
-    return tabla
+    print("Lista despues de dividirla:", output)    
+    return output
 
-def esta_explorando():
+crear_dividir_tabla()
 
+l2 =[]
+#hacemos lo mismo del código anterior
+def sacar(lista,lista2):
+     for l1 in range(len(lista)):
+          if type(lista[l1]) is list:
+               #aqyi la recursividad 
+               sacar(lista[l1],l2)
+          else:
+               lista2.append(lista[l1])
+
+sacar(output, l2)
+print("Elementos sacados:", l2)
+
+
+def esta_explorando(output):
+
+    copia_seguridad.append(max(output(1)))
+
+    print(copia_seguridad)
     return
