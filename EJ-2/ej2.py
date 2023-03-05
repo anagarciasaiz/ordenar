@@ -21,6 +21,7 @@ class ejercicio2():
                 print("esa tarea no es la q toca,realice la tarea",n)
         else:
             print(self.orden) 
+                
 
 
 
